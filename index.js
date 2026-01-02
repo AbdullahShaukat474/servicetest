@@ -4,7 +4,7 @@ const PORT = 3001;
 
 // Simple route
 app.get('/app1', (req, res) => {
-    res.send('Hello from Service one, This is Deployed by using aws code build');
+    res.send('Hello from Service one, This is Deployed by using aws code build v1');
 });
 
 // Health check
